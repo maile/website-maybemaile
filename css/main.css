@@ -1,0 +1,273 @@
+/*----BASE STYLES---*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+#about, #skills, #work, #morework {
+	height: 500px;
+}
+
+#contact {
+	height: 200px;
+}
+
+#otherheader {
+	height: 150px;
+}
+/*---GRID---*/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/*---HEADER---*/
+
+header {
+	height: 700px;
+	background-image: url(../img/blue-window.jpg);
+	background-size: cover;
+}
+
+header h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 50px;
+	color: #695b36;
+	padding: 30px 0;
+}
+
+nav {
+	float: right;
+	padding: 60px 5px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #030408;
+	padding-left: 40px;
+}
+
+header h2 {
+	width: 950px;
+	clear: both;
+	font-family: 'Poiret One', cursive;
+	font-size: 72px;
+	color: #2b4447;
+	padding: 40px 0;
+}
+
+header h2 span {
+	color: #695b36;
+	font-style: bold;
+}
+
+/*---ABOUT---*/
+
+#about, .full-width {
+	padding: 30px;
+}
+
+#about h2 {
+	font-family: 'Poiret One', cursive;
+	font-size: 36px;
+}
+
+#about p {
+	font-size: 21px;
+	color: #9b9b9b;
+	line-height: 40px;
+	padding-right: 40px;
+}
+
+#about-img {
+	border: 12px solid #9ea8a9;
+	width: 600px;
+	margin: 30px 0;
+}
+
+/*---SKILLS---*/
+
+#skills {
+	background-color: #d6d6b2;
+	text-align: center;
+}
+
+#skills, .full-width {
+	padding-top: 5px;
+}
+
+#skillstitle {
+	font-family: 'Poiret One', cursive;
+	font-size: 36px;
+	color: #030408;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#skills img {
+	padding-bottom: 5px;
+}
+
+/*---WORK---*/
+
+#work {
+	background-color: #e4e5e5;
+	text-align: center;
+}
+
+#work, .full-width {
+	padding-top: 5px;
+}
+
+#worktitle {
+	font-family: 'Poiret One', cursive;
+	font-size: 36px;
+	color: #030408;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#work, .third-width {
+	padding-top: 10px;
+}
+
+#work img {
+	padding-bottom: 20px;
+}
+
+#work a {
+	text-decoration: none;
+	color: #030408;
+	padding-top: 50px; 
+	float: right;
+}
+/*---CONTACT---*/
+
+#contact, .full-width {
+	padding: 10px 0;
+}
+
+#envelope {
+	padding: 0 10px 0 0;
+}
+
+#contact h2 {
+	font-family: 'Poiret One', cursive;
+	font-size: 36px;
+	color: #030408;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #695b36;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+#socialmedia-header {
+	padding-left: 40px;
+	text-transform: uppercase;
+}
+
+#contact ul {
+	list-style: none;
+}
+
+#contact li {
+	display: inline-block;
+}
+
+#contact ul img {
+	padding-right: 25px;
+}
+
+/*//////////MORE WORK PAGE////////////*/
+
+/*--MORE WORK HEADER---*/
+
+#otherheader {
+	height: 140px;
+	background-image: url(../img/blue-window.jpg);
+	background-size: cover;
+}
+
+#otherheader h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 50px;
+	padding: 10px 0;
+}
+
+#otherheader nav {
+	float: right;
+	padding: 60px 5px;
+}
+
+#otherheader nav ul {
+	list-style: none;
+}
+
+#otherheader nav li {
+	display: inline-block;
+}
+
+#otherheader nav ul li a {
+	text-transform: uppercase;
+	
+	font-size: 18px;
+	color: #030408;
+	padding-left: 40px;
+}
+
+#otherheader a {
+	text-decoration: none;
+	color: #695b36;
+}
+
+/*---MORE WORK MAIN---*/
+
+#morework {
+	background-color: #e4e5e5;
+	text-align: center;
+}
+
+#morework, .full-width {
+	padding-top: 5px;
+}
+
+#moreworktitle {
+	font-family: 'Poiret One', cursive;
+	font-size: 36px;
+	color: #030408;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#morework, .third-width {
+	padding-top: 10px;
+}
+
+#morework img {
+	padding-bottom: 20px;
+}
+
